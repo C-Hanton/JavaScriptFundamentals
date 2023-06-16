@@ -1,0 +1,21 @@
+// from Eloquent JavaScript
+
+\*
+To output:
+x
+xx
+xxx
+xxxx
+xxxxx
+xxxxxx
+xxxxxxx
+*/
+
+var x = ''
+for (let i = 0 ; i <8 ; i++){
+ 
+ x = 'x' + x;
+
+
+    console.log(x)
+}
