@@ -1,0 +1,12 @@
+// Logging a Chessboard
+
+var size = 8, string = "";
+
+for (var line = 0; line < size; line++) {
+  for(var i = 0; i < size; i++) {
+    string += ((i+line) % 2) === 0 ? "#" : " ";
+  }
+  string += "\n";
+}
+
+console.log(string)
